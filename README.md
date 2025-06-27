@@ -29,7 +29,7 @@ Play against the computer in a classic RPS match! Keep track of your wins, losse
 
 | Dice Roller | Drum Kit | RPS Game |
 |-------------|----------|----------|
-| ![Dice](images/preview-dice.png) | ![Drum](images/preview-drum.png) | ![RPS](images/preview-rps.png) |
+| 🎲 | 🥁 | ✊📄✂️ |
 
 > Replace with your actual screenshots from the project.
 
