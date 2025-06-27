@@ -19,9 +19,9 @@ Play against the computer in a classic RPS match! Keep track of your wins, losse
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Font Awesome** (for dice icons)
-- **Google Fonts** (Arvo)
-- **LocalStorage** (for RPS score memory)
+- **Font Awesome**
+- **Google Fonts**
+- **LocalStorage**
 
 ---
 
