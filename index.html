@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Games Hub</title>
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mini Games Hub 🎮</h1>
+  <nav>
+    <button onclick="showGame('dice')">Dice Roller</button>
+    <button onclick="showGame('drum')">Drum Kit</button>
+    <button onclick="showGame('rps')">Rock Paper Scissors</button>
+  </nav>
+
+  <section id="dice">
+    <div class="winner" id="winnerDiv">
+      <h2 id="diceTitle">Dice Roller</h2>
+      <i class="fa-regular fa-flag flag"></i>
+    </div>
+    <div class="diceContainer">
+      <div class="dice">
+        <h2>Player 1</h2>
+        <div class="dice-one"><i class="fa-solid fa-dice-one"></i></div>
+      </div>
+      <div class="dice">
+        <h2>Player 2</h2>
+        <div class="dice-two"><i class="fa-solid fa-dice-one"></i></div>
+      </div>
+    </div>
+    <div class="diceButton">
+      <button onclick="rollDice()">Roll The Dice</button>
+    </div>
+  </section>
+
+  <section id="drum">
+  <h2>Drum Kit 🥁</h2>
+  <div class="set">
+    <button class="w drum">w</button>
+    <button class="a drum">a</button>
+    <button class="s drum">s</button>
+    <button class="d drum">d</button>
+    <button class="j drum">j</button>
+    <button class="k drum">k</button>
+    <button class="l drum">l</button>
+  </div>
+</section>
+
+
+  <section id="rps">
+    <h2>Rock Paper Scissors ✊📄✂️</h2>
+    <div class="rpsContainer">
+      <img src="rock-emoji.png" onclick="playGame('rock')">
+      <img src="paper-emoji.png" onclick="playGame('paper')">
+      <img src="scissors-emoji.png" onclick="playGame('scissors')">
+    </div>
+    <p class="Result"></p>
+    <p class="moves"></p>
+    <div class="scoreBoard">
+      <div class="Wins">Wins: 0</div>
+      <div class="Losses">Losses: 0</div>
+      <div class="Ties">Ties: 0</div>
+    </div>
+    <button class="resetButton" onclick="resetScore()">Reset Score</button>
+    <button class="autoplaybtn" onclick="toggleAutoPlay()">Auto Play</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

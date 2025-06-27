@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+  font-family: 'Arvo', cursive;
+  background-color: #1e1e2f;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 4rem;
+  margin-top: 20px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+nav button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #404b69;
+  color: white;
+}
+section {
+  display: none;
+  margin-bottom: 50px;
+}
+section.active {
+  display: block;
+}
+
+/* Dice Roller */
+.winner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.flag {
+  display: none;
+  font-size: 50px;
+  color: red;
+}
+.active-flag .flag {
+  display: block;
+}
+.diceContainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+.dice h2 {
+  font-size: 30px;
+}
+.dice i {
+  font-size: 70px;
+}
+.diceButton {
+  margin-top: 30px;
+}
+.diceButton button {
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Drum Kit */
+.set {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.drum {
+  width: 100px;
+  height: 100px;
+  border: 4px solid #fff;
+  border-radius: 15px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px 2px black;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pressed {
+  box-shadow: 0 3px 4px #DBEDF3;
+  opacity: 0.6;
+}
+
+/* Drum Backgrounds */
+.w { background-image: url("images/tom1.png"); }
+.a { background-image: url("images/tom2.png"); }
+.s { background-image: url("images/tom3.png"); }
+.d { background-image: url("images/tom4.png"); }
+.j { background-image: url("images/snare.png"); }
+.k { background-image: url("images/crash.png"); }
+.l { background-image: url("images/kick.png"); }
+
+/* Rock Paper Scissors */
+.rpsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.rpsContainer img {
+  height: 80px;
+  border: 4px solid white;
+  border-radius: 50%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #ffffff10;
+}
+.Result, .moves {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.scoreBoard {
+  margin-top: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.resetButton, .autoplaybtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #404b69;
+  color: white;
+}
