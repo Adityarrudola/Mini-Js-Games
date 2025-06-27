@@ -1,5 +1,7 @@
 # 🎮 Mini Games Hub
 
+[🌐 Live Demo](https://Adityarrudola.github.io/Mini-Js-Games/)
+
 Welcome to **Mini Games Hub** – a collection of fun, interactive browser games built with HTML, CSS, and JavaScript! This project is designed to sharpen front-end skills while creating something playful and engaging.
 
 ## 🕹️ What's Inside?
