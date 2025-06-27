@@ -31,8 +31,6 @@ Play against the computer in a classic RPS match! Keep track of your wins, losse
 |-------------|----------|----------|
 | 🎲 | 🥁 | ✊📄✂️ |
 
-> Replace with your actual screenshots from the project.
-
 ---
 
 ## 🚀 How to Run Locally
