@@ -27,14 +27,6 @@ Play against the computer in a classic RPS match! Keep track of your wins, losse
 
 ---
 
-## 📸 Screenshots
-
-| Dice Roller | Drum Kit | RPS Game |
-|-------------|----------|----------|
-| 🎲 | 🥁 | ✊📄✂️ |
-
----
-
 ## 🚀 How to Run Locally
 
 1. Clone the repository  
